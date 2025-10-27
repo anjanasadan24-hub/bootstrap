@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Food delivery service</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<style>
+    header{
+        background-color:red;
+        
+        font-size: 24px;
+        color: rgb(159, 119, 119);
+    }
+    header a{
+       font-size: 17px;
+        color: white;
+       
+    }
+    footer{
+        background-color: red;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+    }
+</style>
+<body>
+    <header>
+        <div class="container">
+            <div class="row align-item-centre">
+                <div class="col-md-10">
+                  <p>Zomato delivery service</p> 
+                </div>
+                <div class="col-md-2">
+                    
+            
+           
+            <nav>
+                <a href="#"> Home </a> |
+               
+                <a href="#"> Contact </a>
+            </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    
+                </div>
+            </div>
+        <h1> Welcome to Zomato food delivery service</h1>
+        <p> We deliver food at your doorstep</p>
+        </div>
+        <div class="col-md-4 text-centre">
+            <img src="data:image/png;base64,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" alt="food image">
+        </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container text-center">
+            <p>&copy 2025 Zomato. All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+</body>
+</html>
