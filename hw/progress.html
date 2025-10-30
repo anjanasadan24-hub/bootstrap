@@ -3,9 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=s, initial-scale=1.0">
-    <title>Document</title>
+    <title>Course Progress Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 </head>
 <body>
+    <div class="container">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item">Home</li>
+            <li class="breadcrumb-item active">Course</li>
+            <li class="breadcrumb-item active">Web Development</li>
+        </ul>
+        <h1>Web Development course <span class="badge badge-danger">New</span></h1>
+<div class="container-fluid">
+    
+<div class="text-start my-4">
+      <label>HTML</label>
+        <div class="progress ">
+            
+             <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 100%">100%</div>
+        </div>
+        <label>CSS</label>
+        <div class="progress ">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width:75%">75%</div>
+        </div>
+        <label>JavaScript</label>
+        <div class="progress ">
+            <div class="progress-bar progress-bar stripped bg-warning" style="width:50%">JavaScript</div>
+        </div>
+        <label>Bootstrap</label>
+        <div class="progress ">
+            <div class="progress-bar progress-bar stripped bg-danger" style="width:25%">Bootstrap</div>
+        </div>
+        <button type="button" class="btn btn-outline-danger">Start</button>
+        <button type="button" class="btn btn-outline-success">Pause</button>
+        <button type="button" class="btn btn-outline-info">Reset</button>
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+
+
+        </div>
+</div>
+
+    </div>
     
 </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
 </html>
