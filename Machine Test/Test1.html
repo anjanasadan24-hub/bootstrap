@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <title>Signup Form</title>
+</head>
+
+<body class="bg-primary">
+
+  <!-- Main Container -->
+  <div class="container py-5">
+    <div class="card mb-5 mt-4 border-0">
+
+      
+      <div class="card-body px-5 py-3">
+        <h1>Sign Up</h1>
+        <h6 class="text-muted">Please fill in the form to create an account</h6>
+      </div>
+
+      <!-- Form Section -->
+      <div class="card-body px-5 pt-0 pb-4">
+        <form>
+
+          <!-- First and Last Name Fields -->
+          <div class="row mt-3">
+            <div class="col-12 col-md-6">
+              <input type="text" class="form-control border-0 bg-light" placeholder="First Name" name="fname">
+            </div>
+            <div class="col-12 col-md-6 mt-3 mt-md-0">
+              <input type="text" class="form-control border-0 bg-light" placeholder="Last Name" name="lname">
+            </div>
+          </div>
+
+          <!-- Email Field -->
+          <div class="form-group mt-3">
+            <input type="email" class="form-control border-0 bg-light" placeholder="Email" name="email">
+          </div>
+
+          <!-- Password Field -->
+          <div class="form-group">
+            <input type="password" class="form-control border-0 bg-light" placeholder="Password" name="pswd">
+          </div>
+
+          <!-- Confirm Password Field -->
+          <div class="form-group">
+            <input type="password" class="form-control border-0 bg-light" placeholder="Confirm Password" name="cpswd">
+          </div>
+
+          <!-- Terms Checkbox -->
+          <div class="form-group form-check pt-2">
+            <input type="checkbox" class="form-check-input" id="terms" required>
+            <label class="form-check-label text-muted" for="terms">
+              I accept the <a href="#" target="_blank">Terms of Use</a> &amp; <a href="#" target="_blank">Privacy Policy</a>.
+            </label>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="text-left">
+            <button type="submit" class="btn btn-primary px-4 py-2 width-35%"><b>Sign Up</b></button>
+          </div>
+
+        </form>
+      </div>
+ </div>
+      <!-- Login Footer section -->
+        <div class="text-center mt-n4 text-light ">
+    Already have an account? <a href="#" class="text-white"><u>Login here</u>.</a>
+ 
+
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
